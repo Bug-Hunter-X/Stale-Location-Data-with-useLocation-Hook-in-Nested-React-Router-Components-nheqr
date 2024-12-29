@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useLocation` hook inside a component that's not directly rendered by a route can lead to unexpected behavior.  The `location` object might not update correctly when the route changes, resulting in stale data or rendering issues. This often happens when the component is nested several levels deep or rendered conditionally.
